@@ -14,8 +14,8 @@
 #include "tensorflow/lite/schema/schema_generated.h"
 
 // ========== USER WIFI CREDENTIALS ==========
-const char* ssid = "Galaxy A14";
-const char* password = "janjithags";
+const char* ssid = "";
+const char* password = "";
 
 // ========== DHT22 CONFIG ==========
 #define DHTPIN 4
@@ -829,4 +829,5 @@ void loop() {
   events.send(json.c_str(), "message", millis());
 
   delay(2000); // sampling interval
+
 }
