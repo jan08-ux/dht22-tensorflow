@@ -1,4 +1,4 @@
-#  ThermalMind — On-Device AI Temperature Forecasting with ESP32-S3 & TensorFlow Lite Micro
+#  ThermalMind 
 
 
 <p align="center">
