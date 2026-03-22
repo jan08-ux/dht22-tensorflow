@@ -13,9 +13,7 @@
 - **DHT22 integration** — reads temperature every 2 seconds with NaN-guard fallback
 - **Time-series forecasting** — 10-step lookback window, min-max normalized
 - **Live SSE stream** — browser dashboard updates in real time without polling
-- **Interactive Chart.js dashboard** — zoom, pan, scroll, range filter
 - **Responsive UI** — desktop, tablet, and mobile layouts via CSS Grid
-- **Circular data buffer** — stores last 100 readings with millisecond timestamps
 - **FreeRTOS-safe data writes** — `portMUX` critical section protects shared state
 - **Auto-reconnect** — browser reconnects to SSE stream on disconnect (3 s retry)
 - **Visual error tracking** — live absolute error card comparing ML vs. sensor
